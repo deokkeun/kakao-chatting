@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+#chat-bg {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(77, 77, 255);
+  padding: 10px;
+  text-align: right;
+  overflow: auto;
+}
+
+#chat-bg span {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#input-chat {
+  width: 297px;
+  height: 30px;
+  margin-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#input-chat:focus {
+  background-color: rgb(237, 237, 255);
+}
+#send {
+  width: 48px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#send:active {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
